@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 .modal-bg {
     position: fixed;
     top: 0;
@@ -32,13 +34,23 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding: 10%;
+}
+
+.header {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.paragraph {
+    text-align: start;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .colors {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    padding: 10%;
 }
 
 .btn {
