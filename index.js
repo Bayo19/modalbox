@@ -8,6 +8,7 @@ modalBtn.addEventListener('click', function() {
     modalBg.classList.add('bg-active')
     let col = getComputedStyle(modalBtn)
     header.style.color = col.backgroundColor
+    header.textContent = col.backgroundColor
 })
 
 modalClose.addEventListener('click', function() {
